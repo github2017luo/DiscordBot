@@ -41,6 +41,7 @@ namespace DiscordBot2._0
                 StringPrefixes = new string[] {configJson.Prefix},
                 EnableDms = false,
                 EnableMentionPrefix = true
+
             };
             Commands = Client.UseCommandsNext(commandsConfig);
 
