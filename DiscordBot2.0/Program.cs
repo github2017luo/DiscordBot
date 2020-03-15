@@ -4,12 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace DiscordBot2._0
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Bot bot = new Bot();
+            bot.RunAsync().GetAwaiter().GetResult();
+
         }
     }
 }
